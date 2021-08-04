@@ -30,8 +30,8 @@
       <div class = 'mt-2 py-8 px-4 sm:px-6 lg:px-8 md:flex md:items-center md:justify-between'>
         <div class = 'flex space-x-2 md:order-2'>
           <p class="text-gray-500">
-            <a href = 'https://facebook.com/sandorkiraly0' class = 'text-gray-500 hover:text-gray-400'>
-              Facebook
+            <a href = 'https://sandorkiraly.netlify.app' class = 'text-gray-500 hover:text-gray-400'>
+              Elérhetőség
             </a>
           </p>
         </div>
