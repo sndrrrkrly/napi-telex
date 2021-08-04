@@ -62,7 +62,7 @@ export default {
           { v: "Mikór amúgy is skizofrén vagy,\nés az egyetlen fiad meleg." },
           { v: "Lop ez, lop az,\nstílszerű a vendég." },
           { v: "Ha nem tetszik,\nmiért ment katonának." },
-          { v: "" },
+          { v: "Fogam negyven, körmömsz húsz,\nha TikTokozol megb.zúlsz 😄😃" },
       ],
     }
   },
