@@ -17,7 +17,7 @@
     </div>
   </div>
 
-  <footer class = 'px-50 bg-gray-800 text-gray-100'>
+  <footer class = 'px-50 bg-gray-900 text-gray-100'>
     <div class = 'max-w-7xl md:max-w-3xl sm:max-w-xl mx-auto py-12 px-4 sm:px-6 lg:py-6 lg:px-8 border-t border-gray-700'>
       <div class = 'mt-2 py-8 px-4 sm:px-6 lg:px-8 md:flex md:items-center md:justify-between'>
         <div class = 'flex space-x-2 md:order-2'>
