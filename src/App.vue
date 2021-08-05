@@ -2,7 +2,7 @@
   <div id = "app">
     <div class = "min-w-screen min-h-screen bg-gray-800 flex items-center justify-center px-5 py-5">
       <div class = "w-full mx-auto rounded-xl bg-gray-100 shadow-lg p-10 text-gray-800 relative overflow-hidden min-w-50 max-w-lg sm:min-w-80 sm:max-w-xl">
-        <h1 class = "leading-tight text-black font-bold text-sm sm:text-xl text-center">
+        <h1 class = "leading-tight text-black font-semibold text-sm sm:text-xl text-center">
           <div class="pre-formatted">
             {{ selectedComment }}
           </div>
@@ -10,7 +10,7 @@
 
         <br />
 
-        <p class = "uppercase tracking-wide text-sm text-indigo-500 font-semibold text-center">
+        <p class = "uppercase tracking-wide text-sm text-indigo-500 font-medium text-center">
           egy Telex kommentelő
         </p>
       </div>
@@ -34,7 +34,7 @@
 
         <div class = 'mt-8 text-base md:mt-0 md:order-1'>
           <div class="inline-flex space-x-2">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
             </svg>
 
