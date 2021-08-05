@@ -1,12 +1,12 @@
 <template>
   <div id = "app">
     <div class = "min-w-screen min-h-screen bg-gray-800 flex items-center justify-center px-5 py-5">
-      <div class = "w-full mx-auto rounded-xl bg-gray-100 shadow-lg p-10 text-gray-800 relative overflow-hidden min-w-80 max-w-3xl">
+      <div class = "w-full mx-auto rounded-xl bg-gray-100 shadow-lg p-10 text-gray-800 relative overflow-hidden min-w-80 max-w-3xl md:min-w-50 md:max-w-xl">
         <p class = "text-gray-900 text-xl">
           <em>"</em>
         </p>
 
-        <h1 class = "text-gray-800 font-bold text-xl text-center">
+        <h1 class = "text-gray-800 font-bold text-xl md:text-lg text-center">
           <div class="pre-formatted">
             {{ selectedComment }}
           </div>
@@ -70,7 +70,7 @@ export default {
 
             comments: [
                 { value: "Vicc az egész még ujságjuk is van, borzasztó!\nBeteg világ de nagyon!" },
-                { value: "HÁ HA MÁR SZÓBA KERÜLT, ÉN IS KURVÁRA BÜSZKE VAGYOK,\nHOGY HETERÓ VAGYOK ÉS ARANYEREM IS VAN!" },
+                { value: "Há ha már szóba került, én is kurvára büszke vagyok,\nhogy heteró vagyok és aranyerem is van!" },
                 { value: "Mikór amúgy is skizofrén vagy,\nés az egyetlen fiad meleg." },
                 { value: "Lop ez, lop az,\nstílszerű a vendég." },
                 { value: "Ha nem tetszik,\nmiért ment katonának." },
