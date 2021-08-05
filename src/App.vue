@@ -1,6 +1,6 @@
 <template>
   <div id = "app">
-    <div class = "min-w-screen min-h-screen bg-gray-800 flex items-center justify-center px-5 py-5">
+    <div class = "min-w-screen min-h-screen bg-gray-900 flex items-center justify-center px-5 py-5">
       <div class = "w-full mx-auto rounded-xl bg-gray-100 shadow-lg p-10 text-gray-800 relative overflow-hidden min-w-50 max-w-lg sm:min-w-80 sm:max-w-xl">
         <h1 class = "leading-tight text-black font-semibold text-sm sm:text-xl text-center">
           <div class="pre-formatted">
