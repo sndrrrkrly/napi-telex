@@ -3,8 +3,8 @@
     <div class = "min-w-screen min-h-screen bg-gray-900 flex items-center justify-center px-5 py-5">
       <div class = "w-full mx-auto rounded-xl bg-gray-100 shadow-lg p-10 text-gray-800 relative overflow-hidden min-w-50 max-w-lg sm:min-w-80 sm:max-w-xl">
         <h1 class = "leading-tight text-black font-semibold text-sm sm:text-xl text-center">
-          <div class="pre-formatted">
-            {{ selectedComment }}
+          <div class="p">
+            {{ v }}
           </div>
         </h1>
 
@@ -57,16 +57,16 @@ export default {
     name: 'foo',
     data () {
         return {
-            lastSelectedComment: '',
-            selectedComment: '',
+            e: '',
+            v: '',
 
-            comments: [
-                { value: "Vicc az egész még ujságjuk is van, borzasztó!\nBeteg világ de nagyon!" },
-                { value: "Há ha már szóba került, én is kurvára büszke vagyok,\nhogy heteró vagyok és aranyerem is van!" },
-                { value: "Mikór amúgy is skizofrén vagy,\nés az egyetlen fiad meleg." },
-                { value: "Lop ez, lop az,\nstílszerű a vendég." },
-                { value: "Ha nem tetszik,\nmiért ment katonának." },
-                { value: "Fogam negyven, körmömsz húsz,\nha TikTokozol megb.zúlsz 😄😃" },
+            c: [
+                { v: "Vicc az egész még ujságjuk is van, borzasztó!\nBeteg világ de nagyon!" },
+                { v: "Há ha már szóba került, én is kurvára büszke vagyok,\nhogy heteró vagyok és aranyerem is van!" },
+                { v: "Mikór amúgy is skizofrén vagy,\nés az egyetlen fiad meleg." },
+                { v: "Lop ez, lop az,\nstílszerű a vendég." },
+                { v: "Ha nem tetszik,\nmiért ment katonának." },
+                { v: "Fogam negyven, körmömsz húsz,\nha TikTokozol megb.zúlsz 😄😃" },
             ],
         }
     },
@@ -77,11 +77,11 @@ export default {
 
     methods: {
         generate () {
-            while (this.lastSelectedComment == this.selectedComment) {
-                this.selectedComment = this.comments[Math.floor(Math.random() * this.comments.length)].value;
+            while (this.e == this.v) {
+                this.v = this.c[Math.floor(Math.random() * this.c.length)].v;
             }
 
-            this.lastSelectedComment = this.selectedComment
+            this.e = this.v;
         }
     }
 }
@@ -90,7 +90,7 @@ export default {
 <style>
   @import url('https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.4/tailwind.min.css');
 
-  .pre-formatted {
+  .p {
     white-space: pre-line;
   }
 </style>
